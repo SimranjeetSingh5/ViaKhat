@@ -12,6 +12,10 @@ import android.view.ViewTreeObserver.OnGlobalLayoutListener
 import androidx.appcompat.app.AppCompatActivity
 import com.simranjeetsingh05.viakhat.databinding.ActivitySignInBinding
 import com.simranjeetsingh05.viakhat.databinding.WelcomeDialogBinding
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 import kotlin.math.max
 
 
@@ -24,7 +28,9 @@ class SignInActivity : AppCompatActivity() {
         binding = ActivitySignInBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        init()
+        CoroutineScope(Dispatchers.IO).launch {
+            init()
+        }
         if (savedInstanceState == null) {
             binding.root.visibility = View.INVISIBLE
             val viewTreeObserver: ViewTreeObserver = binding.root.viewTreeObserver
@@ -51,12 +57,14 @@ class SignInActivity : AppCompatActivity() {
         circularReveal.duration = 1000
         binding.root.visibility = View.VISIBLE
 
-        welcomeDialog()
+        CoroutineScope(Dispatchers.IO).launch {
+            welcomeDialog()
+        }
         circularReveal.start()
 
     }
 
-    private fun welcomeDialog() {
+    private suspend fun welcomeDialog() {
         val welcomeBinding = WelcomeDialogBinding.inflate(layoutInflater)
 
         val dialog = Dialog(this@SignInActivity)
@@ -78,6 +86,11 @@ class SignInActivity : AppCompatActivity() {
         }
 
     }
+
+
+
+
+
 }
 
 
