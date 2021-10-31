@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <fade
+        android:fromXDelta="-100%"
+        android:toXDelta="0"
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:duration="@integer/material_motion_duration_medium_2"/>
+
+</transitionSet>

@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "1040431482236",
+    "firebase_url": "https://relier-chat-default-rtdb.firebaseio.com",
+    "project_id": "relier-chat",
+    "storage_bucket": "relier-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040431482236:android:db12b495037cbe589950f9",
+        "android_client_info": {
+          "package_name": "com.simranjeetsingh05.relierchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040431482236-ginhg1dh3knc2r8u94cq0q6ngbplqj3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwOLXqsf4goCTUMbF4wPlHuhwlVQfVQs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040431482236-ginhg1dh3knc2r8u94cq0q6ngbplqj3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040431482236:android:6b7f1f469f362dc09950f9",
+        "android_client_info": {
+          "package_name": "com.simranjeetsingh05.viakhat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040431482236-920ge81ji56ucf2tu4ms6ehagp8s1n1c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simranjeetsingh05.viakhat",
+            "certificate_hash": "849271fa0cc5ed45afa11303ff61da5a60adb0eb"
+          }
+        },
+        {
+          "client_id": "1040431482236-ginhg1dh3knc2r8u94cq0q6ngbplqj3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwOLXqsf4goCTUMbF4wPlHuhwlVQfVQs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040431482236-ginhg1dh3knc2r8u94cq0q6ngbplqj3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

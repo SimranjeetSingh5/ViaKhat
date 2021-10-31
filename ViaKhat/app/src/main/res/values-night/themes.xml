@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ViaKhat" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary</item>
+        <!--        Enabling transitions-->
+        <item name="android:windowActivityTransitions">true</item>
+        <!--        Setup enter and exit transition-->
+        <item name="android:windowEnterTransition">@transition/trans_signup</item>
+        <item name="android:windowExitTransition">@transition/trans_signup</item>
+    </style>
+</resources>

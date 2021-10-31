@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/image_background"
+    android:layout_height="match_parent"
+    tools:context=".activities.SignUpActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/userCardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/action_bar"
+                android:layout_width="match_parent"
+                android:background="@drawable/gradient_background"
+                android:layout_height="?actionBarSize"
+                android:fontFamily="@font/fredoka_one"
+                android:textSize="22sp"
+                android:text="Create New Account"
+                android:includeFontPadding="true"
+                android:paddingStart="15dp"
+                android:paddingTop="15dp"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/userImageView"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlSymmetry" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/userImageView"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                app:riv_corner_radius="@dimen/_40sdp"
+                android:padding="@dimen/_10sdp"
+                android:background="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/action_bar"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Image"
+                android:layout_marginTop="0dp"
+                app:layout_constraintTop_toBottomOf="@id/userImageView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/firstNameTV"
+                android:layout_width="100dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/userImageView"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="10dp"
+                android:text="First Name"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/firstNameET"
+                android:layout_width="150dp"
+                android:hint="Raj"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/firstNameTV"
+                app:layout_constraintStart_toStartOf="parent"
+                android:importantForAutofill="no"
+                android:layout_marginStart="10dp"
+                android:inputType="text"
+                android:labelFor="@id/firstNameTV"/>
+
+            <TextView
+                android:id="@+id/lastNameTV"
+                android:layout_width="100dp"
+                android:textAlignment="center"
+                android:layout_marginStart="40dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/firstNameTV"
+                app:layout_constraintTop_toBottomOf="@id/userImageView"
+                android:layout_marginTop="40dp"
+                android:text="Last Name"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/lastNameET"
+                android:layout_width="150dp"
+                android:hint="Kumar"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/lastNameTV"
+                app:layout_constraintStart_toEndOf="@id/firstNameET"
+                android:importantForAutofill="no"
+                android:layout_marginStart="40dp"
+                android:inputType="text"
+                android:labelFor="@id/lastNameTV"/>
+
+            <TextView
+                android:id="@+id/dobTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/firstNameET"
+                android:layout_marginTop="10dp"
+                android:text="Select Date of Birth"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/dobButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dobTv"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Choose"
+                android:textColor="#000000"
+                android:backgroundTint="#BDBDBD"
+                app:cornerRadius="10dp" />
+
+            <TextView
+                android:id="@+id/usernameTV"
+                android:layout_width="100dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/dobButton"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="10dp"
+                android:text="Username"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/passwordET"
+                android:layout_width="150dp"
+                android:hint="raj41"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/usernameTV"
+                app:layout_constraintStart_toStartOf="parent"
+                android:importantForAutofill="no"
+                android:layout_marginStart="10dp"
+                android:inputType="text"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:id="@+id/passwordTV"
+                android:layout_width="100dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/usernameTV"
+                app:layout_constraintTop_toBottomOf="@id/dobButton"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="40dp"
+                android:text="Password"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/confirmPasswordET"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/passwordTV"
+                app:layout_constraintStart_toEndOf="@id/passwordET"
+                android:importantForAutofill="no"
+                android:layout_marginStart="40dp"
+                android:inputType="textPassword"
+                tools:ignore="LabelFor" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:backgroundTint="#FFBDBDBD"
+                app:cornerRadius="10dp"
+                android:text="Sign Up"
+                android:shadowColor="#000000"
+                app:strokeColor="@color/white"
+                android:textColor="#000000"
+                android:fontFamily="@font/fredoka_one"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/passwordET" />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
