@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/white"
+    tools:context=".activities.MainActivity">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@drawable/g1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/imageProfile"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="start"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:src="@drawable/via_khat_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_corner_radius="@dimen/_20sdp" />
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:fontFamily="@font/fredoka_one"
+            android:textSize="@dimen/_14ssp"
+            android:text="The ViaKhat chat App"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageSignOut"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:src="@drawable/ic_logout"
+            android:tint="@color/white" />
+    </FrameLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabNewChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_24sdp"
+        android:layout_marginBottom="@dimen/_24sdp"
+        android:backgroundTint="@color/primary"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

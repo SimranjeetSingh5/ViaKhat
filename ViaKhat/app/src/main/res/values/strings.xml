@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ViaKhat</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="already_a_user">Already a User?</string>
+    <string name="new_to_viakhat_sign_up_now">New to ViaKhat Sign up NOW!!</string>
+    <string name="life_goes_on">\"Life goes on and on…\"</string>
+    <string name="click_to_continue">Click to continue</string>
+    <string name="todo">TODO</string>
+    <string name="hi_there">Hi There!!!</string>
+    <string name="welcome">Welcome</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="choose">Choose</string>
+    <string name="select_date_of_birth">Select Date of Birth</string>
+    <string name="required">*Required</string>
+    <string name="email">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="add_image">Add Image</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="already_on_viakhat_log_in"><u>Already on ViaKhat? Log In.</u></string>
+    <string name="backbutton">backButton</string>
+    <string name="select_user">Select User</string>
+</resources>
