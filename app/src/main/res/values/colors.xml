@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FFBB86FC</color>
+    <color name="primary_dark">#FF6200EE</color>
+    <color name="primary_text">#FFFFFF</color>
+    <color name="secondary_text">#888888</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dk_black">#090909</color>
+    <color name="lg_black">#252121</color>
+    <color name="input_background">#FFFFFF</color>
+    <color name="icon_background">#373737</color>
+    <color name="error">#D50000</color>
+    <color name="received_message_background">#000000</color>
+    <color name="mtrl_textinput_default_box_stroke_color">@color/primary</color>
+
+
+</resources>
