@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gorisse.thomas.sceneform:core:1.20.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8e047ece004e5d8366f81db395adae19/jetified-core-1.20.1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8e047ece004e5d8366f81db395adae19/jetified-core-1.20.1/jars/libs/libsceneform_runtime_schemas.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8e047ece004e5d8366f81db395adae19/jetified-core-1.20.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8e047ece004e5d8366f81db395adae19/jetified-core-1.20.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gorisse.thomas.sceneform/core/1.20.1/e38bca2212272b38d8d2ebaeceba7cef1ea04685/core-1.20.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gorisse.thomas.sceneform/core/1.20.1/f0464a7fcdb4928e9f6e23d1208aea69eb77a6ce/core-1.20.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

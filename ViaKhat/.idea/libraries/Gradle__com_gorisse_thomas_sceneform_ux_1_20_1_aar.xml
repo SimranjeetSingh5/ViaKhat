@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gorisse.thomas.sceneform:ux:1.20.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c62441938e8a1b98daf016e656eabe5a/jetified-ux-1.20.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c62441938e8a1b98daf016e656eabe5a/jetified-ux-1.20.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c62441938e8a1b98daf016e656eabe5a/jetified-ux-1.20.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gorisse.thomas.sceneform/ux/1.20.1/6def840fe701eab45ef9551f5e87ef2f593910d0/ux-1.20.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gorisse.thomas.sceneform/ux/1.20.1/c2bf5497392e41db76547962f7c38335731ba960/ux-1.20.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
